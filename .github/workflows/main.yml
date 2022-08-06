@@ -31,10 +31,10 @@ jobs:
       with:
         project: "WebGoat" # <-- Insert Checkmarx SAST Project Name
         team: ${{ secrets.CHECKMARX_TEAMS }}
-        checkmarx_url: ${{ secrets.CHECKMARX_URL }} # To be stored in GitHub Secrets.
-        checkmarx_username: ${{ secrets.CHECKMARX_USER }} # To be stored in GitHub Secrets.
-        checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }} # To be stored in GitHub Secrets.
-        checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }} # To be stored in GitHub Secrets.
+        checkmarx_url: "https://4e8d-189-236-11-249.ngrok.io" # To be stored in GitHub Secrets.
+        checkmarx_username: "admin" # To be stored in GitHub Secrets.
+        checkmarx_password: "Cx!234567" # To be stored in GitHub Secrets.
+        checkmarx_client_secret: "014DF517-39D1-4453-B7B3-9930C563627C" # To be stored in GitHub Secrets.
         break_build: false
         scanners: sast
         bug_tracker: Sarif
