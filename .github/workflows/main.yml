@@ -1,5 +1,5 @@
 # This workflow is to automate Checkmarx SAST scans.  It runs on a push to the main branch.
-#
+# Testing
 # The following GitHub Secrets must be first defined:
 #   - CHECKMARX_URL
 #   - CHECKMARX_USER
