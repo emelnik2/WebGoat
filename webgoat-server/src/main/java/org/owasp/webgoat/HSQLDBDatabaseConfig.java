@@ -1,3 +1,4 @@
+/* Comment to launch a new PR */
 package org.owasp.webgoat;
 
 import lombok.extern.slf4j.Slf4j;
