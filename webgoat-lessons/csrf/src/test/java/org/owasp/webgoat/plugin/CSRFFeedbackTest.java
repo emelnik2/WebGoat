@@ -19,6 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 /**
  * @author nbaars
+ * tested by emelnik
  * @since 11/17/17.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
